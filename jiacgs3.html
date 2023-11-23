@@ -1,0 +1,1853 @@
+<html>
+    <head>
+        <title>Jia CGS Tool</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+            /* Custom styles */
+            body {
+                background-color: pink;
+                color: black;
+            }
+    
+            .form-control {
+                color: black;
+            }
+
+            .jia {
+                font-family: wingdings;
+            }
+            a:link{
+              color: black;
+            }
+            a.visited{
+              color: black;
+            }
+            a.hover{
+              color:black;
+            }
+            a.active{
+              color:black;
+            }
+            #dateTimeDisplay {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #003B00;
+            font-weight: 900;
+           
+            }
+        </style>
+       
+    </head>
+    <body bgcolor="000000" background="https://jiawp.neocities.org/tech.PNG">
+
+        <div class="jumbotron">
+          <div id="dateTimeDisplay"></div>
+            <TABLE>
+                <TR>
+                    <TD><a href="javascript:jia()"><img src="https://jiawp.neocities.org/000matrix6.png" border="0"></a></TD>
+                    <TD>
+                      <table height="100%">
+                        <tr>
+                          <td bgcolor="000000"><textarea id="xPage" rows="6" cols="9"></textarea></td>
+                          <td valign="middle" bgcolor="000000"><button id="copyButton5" style="font-family:wingdings;">=</button></td>
+                        </tr>
+                      </table>
+                      
+                      
+                    
+                    
+                    </TD>
+                    <td>
+                      <table>
+                        <tr>
+                          <td bgcolor="D1C4E9"><font face=wingdings size="4">(</font></td>
+                          <td bgcolor="D1C4E9"><a href="javascript:void(0)" onclick="jia001()">UR</a> > 
+                            <a href="javascript:void(0)" onclick="jia002()">DELL</a> > 
+                            <a href="javascript:void(0)" onclick="jia003()">LENOVO</a> > 
+                            <a href="javascript:void(0)" onclick="jia004()">LEXMARK</a> > 
+                            <a href="javascript:void(0)" onclick="jia005()">APPLE</a></td>
+                        </tr>
+                        <tr>
+                          <td bgcolor="B39DDB"><font face=wingdings size="4">[</font></td>
+                          <td bgcolor="B39DDB"><a href="javascript:void(0)" onclick="jia006()">FAST</a> > 
+                            <a href="javascript:void(0)" onclick="jia007()">RM</a> > 
+                            <a href="javascript:void(0)" onclick="jia008()">MAN</a> > 
+                            <a href="javascript:void(0)" onclick="jia009()">1ST</a> > 
+                            <a href="javascript:void(0)" onclick="jia010()">AM</a> > 
+                            <a href="javascript:void(0)" onclick="jia011()">ISE</a> > 
+                            <a href="javascript:void(0)" onclick="jia012()">NON-ISE</a> > 
+                            <a href="javascript:void(0)" onclick="jia013()">CTX/VDA</a> > 
+                            <a href="javascript:void(0)" onclick="jia014()">MT</a> > 
+                            <a href="javascript:void(0)" onclick="jia015()">VPN</a> > 
+                            <a href="javascript:void(0)" onclick="jia016()">PB</a> > 
+                            <a href="javascript:void(0)" onclick="jia017()">SELF</a> > 
+                            <a href="javascript:void(0)" onclick="jia018()">1</a> > 
+                            <a href="javascript:void(0)" onclick="jia019()">2</a> > 
+                            <a href="javascript:void(0)" onclick="jia020()">RESET</a> > 
+                            <a href="javascript:void(0)" onclick="jia021()">12</a> > 
+                            <a href="javascript:void(0)" onclick="jia022()">PMAN</a> > 
+                            <a href="javascript:void(0)" onclick="jia023()">WARM</a> > 
+                            <a href="javascript:void(0)" onclick="jia024()">SOTI</a> > 
+                            <a href="javascript:void(0)" onclick="jia025()">CHROME</a> > 
+                            <a href="javascript:void(0)" onclick="jia026()">PCYCLE</a> > 
+                            <a href="javascript:void(0)" onclick="jia027()">EONLINE</a> > 
+                            <a href="javascript:void(0)" onclick="jia028()">VMOX</a> > 
+                            <a href="javascript:void(0)" onclick="jia029()">RM TEMPLATE</a> >                            
+                            <a href="javascript:void(0)" onclick="jia029()">RM TEMPLATE</a> 
+                            <a href="javascript:void(0)" onclick="jia029()">RM TEMPLATE</a>  
+                            <a href="javascript:void(0)" onclick="jia030()">WEBMAIL</a> > 
+                            <a href="javascript:void(0)" onclick="jia031()">SUPPORT ASSIST</a> > 
+                            <a href="javascript:void(0)" onclick="jia032()">SYSTEM UPDATE</a> > 
+                            <a href="javascript:void(0)" onclick="jia033()">ISSUE RESOLVE ITSELF</a> > 
+                            <a href="javascript:void(0)" onclick="jia034()">[EMAILS]</a> > 
+                            <a href="javascript:void(0)" onclick="jia035()">[EMAILS]</a> > 
+                            <a href="javascript:void(0)" onclick="jia036()">POWER CYCLE</a> > 
+                            <a href="javascript:void(0)" onclick="jia037()">password.ur.com</a> > 
+                            <a href="javascript:void(0)" onclick="jia038()">ODBC</a> > 
+                            <a href="javascript:void(0)" onclick="jia039()">cgi-bin/history</a> > 
+                            <a href="javascript:void(0)" onclick="jia040()">ctx-problem</a> > 
+                            <a href="javascript:void(0)" onclick="jia041()">pman-web</a> > 
+                            <a href="javascript:void(0)" onclick="jia042()">pman-id</a> > 
+                            <a href="javascript:void(0)" onclick="jia043()">pman-pw</a> > 
+                            <a href="javascript:void(0)" onclick="jia044()">advised and linked problem</a> > 
+                            <a href="javascript:void(0)" onclick="jia045()">sophos</a> > 
+                            <a href="javascript:void(0)" onclick="jia046()">http://rm.ur.com/printers.html</a> > 
+                            <a href="javascript:void(0)" onclick="jia047()">password.ur.com</a> 
+
+                          
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </TR>
+            </TABLE>
+            
+
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td><FONT SIZE=1>&nbsp;F I R S T :</FONT></td>
+                    </tr>
+                    <tr>
+                      <td><textarea id="j001" rows="1" cols="18"></textarea></td>
+                    </tr>
+                  </table>
+                  
+                  
+                  </td>
+                  <td>
+                    <table>
+                      <tr>
+                        <td><FONT SIZE=1>&nbsp; L A S T :</FONT></td>
+                      </tr>
+                      <tr>
+                        <td><textarea id="j002" rows="1" cols="21"></textarea></td>
+                      </tr>
+                    </table>
+                    
+                    
+                    </td>
+                    <td><table>
+                      <tr>
+                        <td colspan="2" bgcolor="#BBDEFB"><FONT SIZE=1>&nbsp; P H O N E :</FONT></td>
+                      </tr>
+                      <tr>
+                        <td bgcolor="#BBDEFB"><textarea id="j003" rows="1" cols="18"></textarea>
+                        </td>
+                        <td valign="middle" bgcolor="#BBDEFB">
+                          <button id="copyButton12" style="font-family:wingdings;">=</button>
+                        </td>
+                      </tr>
+                    </table></td>
+                    <td><table>
+                      <tr>
+                        <td colspan="2" bgcolor="#90CAF9"><FONT SIZE=1>&nbsp; E M A I L :</FONT></td>
+                      </tr>
+                      <tr>
+                        <td bgcolor="#90CAF9"><textarea id="email" rows="1" cols="30"></textarea>
+                        </td>
+                        <td valign="middle" bgcolor="#90CAF9">
+                          <button id="copyButton11" style="font-family:wingdings;">=</button>
+                        </td>
+                        
+                      </tr>
+                    </table></td>
+                    <td>
+                      
+                      <table>
+                        <tr>
+                          <td><FONT SIZE=1>&nbsp; B R A N C H :</FONT></td>
+                        </tr>
+                        <tr>
+                          <td><textarea id="j008" rows="1" cols="9"></textarea></td>
+                        </tr>
+                      </table>
+                      
+                      </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td><table>
+                  <tr>
+                    <td bgcolor="#80DEEA"><FONT SIZE=1>&nbsp; S U M M A R Y :</FONT></td>
+                    <td bgcolor="#80DEEA">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#80DEEA">
+                      <textarea id="sum" rows="1" cols="38"></textarea>
+
+                    </td>
+                    <td bgcolor="#80DEEA">
+                      <button id="copyButton13" style="font-family:wingdings;">=</button>
+
+                    </td>
+                  </tr>
+                </table></td>
+                <td>
+
+
+                  <table>
+                    <tr>
+                      <td><FONT SIZE=1>&nbsp; I S S U E :</FONT>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><textarea id="j004" rows="1" cols="89"></textarea></td>
+                    </tr>
+                  </table>
+                  
+                    
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td><table>
+                  <tr>
+                    <td bgcolor="#A5D6A7"><FONT SIZE=1>&nbsp; S E R V I C E - T A G :</FONT></td>
+                    <td bgcolor="#A5D6A7">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#A5D6A7"><textarea id="t001" rows="1" cols="20"></textarea></td>
+                    <td valign="middle" bgcolor="#A5D6A7"><button id="copyButton14" style="font-family:wingdings;">=</button></td>
+                  </tr>
+                </table></td>
+                <td><table>
+                  <tr>
+                    <td bgcolor="#F0F4C3"><FONT SIZE=1>
+                      <input type="radio" name="device" id="pcRadio" value="Computer"> Computer
+                      <input type="radio" name="device" id="printerRadio" value="Printer"> Printer</FONT>
+                    </td>
+                    <td bgcolor="#F0F4C3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#F0F4C3"><textarea id="j005" rows="1" cols="20"></textarea></td>
+                    <td valign="middle" bgcolor="#F0F4C3"><button id="copyButton15" style="font-family:wingdings;">=</button></td>
+                  </tr>
+                </table>
+
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td bgcolor="#E6EE9C"><FONT SIZE=1>&nbsp; I P :</FONT></td>
+                      <td bgcolor="#E6EE9C">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#E6EE9C"><textarea id="j006" rows="1" cols="18"></textarea></td>
+                      <td valign="middle" bgcolor="#E6EE9C"><button id="copyButton16" style="font-family:wingdings;">=</button></td>
+                    </tr>
+                  </table>
+
+
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td valign="middle"><FONT SIZE=1>&nbsp; K B A S E :</FONT></td>
+                      </tr>
+                    <tr>
+                      <td valign="middle"><textarea id="kbase" rows="1" cols="23"></textarea></td>
+                    
+                    </tr>
+                  </table>
+
+                  
+                  
+                  </td>
+                  <td>
+
+                    <table>
+                      <tr>
+                        <td><FONT SIZE=1>&nbsp; T I C K E T # :</FONT><BR>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td><textarea id="t002" rows="1" cols="15"></textarea></td>
+                      </tr>
+                    </table>
+
+
+                  </td>
+                  <td>
+                    <table>
+                      <tr>
+                        <td><FONT SIZE=1>&nbsp; M I N :</FONT></td>
+                      </tr>
+                      <tr>
+                        <td><textarea id="min" rows="1" cols="6"></textarea></td>
+                      </tr>
+                    </table>
+                  </td>
+              </tr>
+
+            </table>
+
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td><FONT SIZE=1>&nbsp; E R R O R + :</FONT></td>
+                    </tr>
+                    <tr>
+                      <td><textarea id="j007" rows="4" cols="38"></textarea></td>
+                    </tr>
+                  </table>
+                </td>
+                <td valign="top">
+                  <table>
+                    
+                    <tr>
+                      <td>
+                        <table>
+                          <tr>
+                            <td bgcolor="#FFCDD2"><FONT SIZE=1>&nbsp; D E S C :</FONT></td>
+                            <TD bgcolor="#FFCDD2">&nbsp;</TD>
+                          </tr>
+                          <TR>
+                            <TD bgcolor="#FFCDD2"><textarea id="jPage" rows="1" cols="23"></textarea></TD>
+                            <td bgcolor="#FFCDD2"><button id="copyButton" style="font-family:wingdings;">=</button></td>
+                          </TR>
+                        </table>
+
+                        
+                      
+                      </td>
+                      
+                    </tr>
+                    <tr>
+                      <td>
+                        <table>
+                          <tr>
+                            <td bgcolor="#F8BBD0"><FONT SIZE=1>&nbsp; N O T E S :</FONT></td>
+                            <TD bgcolor="#F8BBD0">&nbsp;</TD>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#F8BBD0"><textarea id="tPage" rows="1" cols="23"></textarea></td>
+                            <td bgcolor="#F8BBD0"><button id="copyButton2" style="font-family:wingdings;">=</button></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                  </table>
+                </td>
+                <td valign="top">
+                  <table>
+                    <tr>
+                      <td valign="top">
+                        <table>
+                          <tr>
+                            <td bgcolor="#EF9A9A"><FONT SIZE=1>&nbsp; H O N D O :</FONT></td>
+                            <TD bgcolor="#EF9A9A">&nbsp;</TD>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#EF9A9A"><textarea id="hPage" rows="1" cols="23"></textarea></td>
+                            <td bgcolor="#EF9A9A"><button id="copyButton4" style="font-family:wingdings;">=</button></td>
+                          </tr>
+                        </table>
+                        <table>
+                          <tr>
+                            <td bgcolor="#F48FB1"><FONT SIZE=1>&nbsp; S E A R C H :</FONT></td>
+                            <TD bgcolor="#F48FB1">&nbsp;</TD>
+                          </tr>
+                          <tr>
+                            <td bgcolor="#F48FB1"><input type="text" id="searchInput" placeholder="Search">
+                              </td>
+                              <td bgcolor="#F48FB1"><button onclick="searchText()" style="font-family:wingdings;">$</button></td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td valign="bottom">
+                  <table>
+                    <tr>
+                      <td><textarea id="sPage" rows="1" cols="31"></textarea></td>
+                      <td><button id="copyButton3" onclick="jia2()" style="font-family:wingdings;">#</button></td>
+                    </tr>
+                    
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <table>
+                <tr>
+                    
+                    
+                    <td><p>
+                      <h1>Current Weekday and Date</h1>
+                      <p>Today is <span id="weekday"></span>, <span id="date"></span>.</p>
+                      <button onclick="displayDate()">Show Current Date</button>
+                      
+                      </p>
+                        </td>
+                </tr>
+                
+                
+            </table>
+            <p>
+                
+               
+                
+                
+                  
+                
+                <br><br>
+                <br><br></p>
+
+
+
+
+        </div>
+
+        <!-- Custom <h3> tag and <div> -->
+
+
+
+        
+
+        <table id="dataTable">
+          <tr>
+            <td>Row 1</td>
+            <td>10944 - esc-rm</td>
+          </tr>
+          <tr>
+            <td>Row 2</td>
+            <td>10743 - esc-fast</td>
+          </tr>
+          <tr>
+            <td>Row 3</td>
+            <td>10308 - pw</td>
+          </tr>
+           <tr>
+            <td>Row 4</td>
+            <td>11051 - static ip</td>
+          </tr>
+          <tr>
+            <td>Row 5</td>
+            <td>14140 - rico</td>
+          </tr>
+          <tr>
+            <td>Row 6</td>
+            <td>11195 - canada</td>
+          </tr>
+          <tr>
+            <td>Row 7</td>
+            <td>12157 - odbc</td>
+</tr>
+<tr>
+<td>Row 8</td>
+  <td>14147 - webex - webex@ur.com</td>
+</tr>
+<tr>
+<td>Row 9</td>
+  <td>14514 - workday - 1hr@ur.com</td>
+</tr>
+
+<tr>
+<td>Row 10</td>
+  <td>11466 urmax - URMaxSupport@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 11</td>
+    <td>11123 - smartequip / epro - ePro@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 12</td>
+    <td>10284 - sf / salesforce - mysalesforce@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 13</td>
+    <td>12778 - myur / myur@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 14</td>
+    <td>10247 - security / ITSecurity@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 15</td>
+    <td>10850 - pro / itprovisioning@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 16</td>
+    <td>11339 - fuel card - FuelCard@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 17</td>
+    <td>13068 - data2action - actions@ur.com / Data2ActionSupport@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 18</td>
+    <td>14396 - concur - Concur@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 18</td>
+    <td>11037 - catalyst - UnitedRentalsAP@cognizant.com</td>
+</tr>
+
+<tr>
+  <td>Row 19</td>
+    <td>11131 - non std standard software order form</td>
+</tr>
+
+<tr>
+  <td>Row 20</td>
+    <td>15645 - sophos central bitlocker key</td>
+</tr>
+
+<tr>
+  <td>Row 21</td>
+    <td>12234 - tree size free / free up disk space</td>
+</tr>
+
+<tr>
+  <td>Row 22</td>
+    <td>13351 - diesel support</td>
+</tr>
+
+<tr>
+  <td>Row 22</td>
+    <td>12800 - FAST access / completed training</td>
+</tr>
+
+<tr>
+  <td>Row 23</td>
+    <td>11123 - epro - epro@ur.com</td>
+</tr>
+
+<tr>
+  <td>Row 24</td>
+    <td>14690 - lenovo repair ibm thinkpad</td>
+</tr>
+
+<tr>
+  <td>Row 25</td>
+    <td>11499 - icon</td>
+</tr>
+
+<tr>
+  <td>Row 26</td>
+    <td>12003 - name change</td>
+</tr>
+
+<tr>
+    <td>Row 27</td>
+      <td>10211 - cell</td>
+  </tr>
+
+  <tr>
+    <td>Row 28</td>
+      <td>14453 - pointman</td>
+  </tr>
+
+  <tr>
+    <td>Row 29</td>
+      <td>10179 - DL</td>
+  </tr>
+
+  <tr>
+    <td>Row 30</td>
+      <td>10192 - vpn gen</td>
+  </tr>
+
+  <tr>
+    <td>Row 31</td>
+      <td>10349 - rm writer</td>
+  </tr>
+
+  <tr>
+    <td>Row 32</td>
+      <td>12816 - cummins insite</td>
+  </tr>
+
+  <tr>
+    <td>Row 33</td>
+      <td>12772 - soti</td>
+  </tr>
+
+  <tr>
+    <td>Row 34</td>
+      <td>10990 - esc-voip</td>
+  </tr>
+
+  <tr>
+    <td>Row 35</td>
+      <td>14720 - network printer</td>
+  </tr>
+
+  <tr>
+    <td>Row 36</td>
+      <td>10525 - ctxvda</td>
+  </tr>
+
+  <tr>
+    <td>Row 37</td>
+      <td>11036 - admin rights</td>
+  </tr>
+
+  <tr>
+    <td>Row 38</td>
+      <td>12718 - ITAM</td>
+  </tr>
+
+  <tr>
+    <td>Row 39</td>
+      <td>13754 - geotab</td>
+  </tr>
+
+  <tr>
+    <td>Row 40</td>
+      <td>13785 - splunk dashboard</td>
+  </tr>
+
+  <tr>
+    <td>Row 41</td>
+      <td>13694 - WYSE quick start</td>
+  </tr>
+
+  <tr>
+    <td>Row 42</td>
+      <td>14816 - javasharedresources</td>
+  </tr>
+
+  <tr>
+    <td>Row 43</td>
+      <td>14279 - external website access</td>
+  </tr>
+
+  <tr>
+    <td>Row 44</td>
+      <td>15719 - chrome cache</td>
+  </tr>
+
+  <tr>
+    <td>Row 45</td>
+      <td>13142 - webmail</td>
+  </tr>
+
+  <tr>
+    <td>Row 46</td>
+      <td>14702 - T14</td>
+  </tr>
+
+  <tr>
+    <td>Row 47</td>
+      <td>10306 - restricted site</td>
+  </tr>
+
+  <tr>
+    <td>Row 48</td>
+      <td>11075 - id disabled</td>
+  </tr>
+
+  <tr>
+    <td>Row 49</td>
+      <td>14618 - link asset</td>
+  </tr>
+
+  <tr>
+    <td>Row 50</td>
+      <td>14007 - printer ip</td>
+  </tr>
+
+  <tr>
+    <td>Row 51</td>
+      <td>10156 - screen print</td>
+  </tr>
+
+  <tr>
+    <td>Row 52</td>
+      <td>10350 - rm-pw-reset</td>
+  </tr>
+
+  <tr>
+    <td>Row 53</td>
+      <td>14007 - log-rm-printer-calls</td>
+  </tr>
+
+  <tr>
+    <td>Row 54</td>
+      <td>11131 - non standard software</td>
+  </tr>
+
+  <tr>
+    <td>Row 55</td>
+      <td>11629 - am repair</td>
+  </tr>
+
+  <tr>
+    <td>Row 56</td>
+      <td>13648 - 5400</td>
+  </tr>
+
+  <tr>
+    <td>Row 57</td>
+      <td>13142 - webmail</td>
+  </tr>
+
+  <tr>
+    <td>Row 58</td>
+      <td>14444 - printerlogic</td>
+  </tr>
+
+  <tr>
+    <td>Row 59</td>
+      <td>15794 - 5440</td>
+  </tr>
+
+  <tr>
+    <td>Row 60</td>
+      <td>15116 - exchange migration</td>
+  </tr>
+
+  <tr>
+    <td>Row 61</td>
+      <td>14677 - near miss</td>
+  </tr>
+
+  <tr>
+    <td>Row 62</td>
+      <td>10308 - net</td>
+  </tr>
+
+  <tr>
+    <td>Row 63</td>
+      <td>11927 - samsung email</td>
+  </tr>
+
+  <tr>
+    <td>Row 64</td>
+      <td>12800 - fast dispatcher and driver access</td>
+  </tr>
+
+  <tr>
+    <td>Row 65</td>
+      <td>15812 - scanner disabled</td>
+  </tr>
+
+  <tr>
+    <td>Row 66</td>
+      <td>15299 - 5430</td>
+  </tr>
+
+  <tr>
+    <td>Row 67</td>
+      <td>10308 - reset network pw</td>
+  </tr>
+
+  <tr>
+    <td>Row 68</td>
+      <td>10850 - itprovisioning@ur.com</td>
+  </tr>
+
+  <tr>
+    <td>Row 69</td>
+      <td>10757 - condition reports</td>
+  </tr>
+
+  <tr>
+    <td>Row 70</td>
+      <td>14605 - 5420</td>
+  </tr>
+
+  <tr>
+    <td>Row 71</td>
+      <td>14976 - microsoft office repairing corrupted files</td>
+  </tr>
+
+  <tr>
+    <td>Row 72</td>
+      <td>14782 - genie smartlink</td>
+  </tr>
+  <tr>
+    <td>Row 73</td>
+      <td>13643 - 5490</td>
+  </tr>
+
+  <tr>
+    <td>Row 74</td>
+      <td>12330 - JLG</td>
+  </tr>
+
+  <tr>
+    <td>Row 75</td>
+      <td>11684 - lexmark support</td>
+  </tr>
+
+  <tr>
+    <td>Row 76</td>
+      <td>12353 - jcb service master</td>
+  </tr>
+
+  <tr>
+    <td>Row 77</td>
+      <td>15840 - outlook attachment</td>
+  </tr>
+
+  <tr>
+    <td>Row 78</td>
+      <td>13659 - ARI insights</td>
+  </tr>
+
+  <tr>
+    <td>Row 79</td>
+      <td>11292 - barcode</td>
+  </tr>
+
+  <tr>
+    <td>Row 80</td>
+      <td>11922 field service</td>
+  </tr>
+
+  <tr>
+    <td>Row 81</td>
+      <td>14303 - citrix workspace</td>
+  </tr>
+
+  <tr>
+    <td>Row 82</td>
+      <td>11118 - total control</td>
+  </tr>
+
+  <tr>
+    <td>Row 83</td>
+      <td>14462 - ASM</td>
+  </tr>
+
+  <tr>
+    <td>Row 84</td>
+      <td>12392 - HEAT issue</td>
+  </tr>
+
+  <tr>
+    <td>Row 85</td>
+      <td>12378 - labeltac1</td>
+  </tr>
+
+  <tr>
+    <td>Row 86</td>
+      <td>14426 - labeltac2</td>
+  </tr>
+
+  <tr>
+    <td>Row 87</td>
+      <td>14427 - labeltac3</td>
+  </tr>
+
+  <tr>
+    <td>Row 88</td>
+      <td>13940 - posture assessment</td>
+  </tr>
+
+  <tr>
+    <td>Row 89</td>
+      <td>13642 - 5480</td>
+  </tr>
+
+  <tr>
+    <td>Row 90</td>
+      <td>11075 - enable-disable-RM-account</td>
+  </tr>
+
+  <tr>
+    <td>Row 91</td>
+      <td>11049 - gk420d</td>
+  </tr>
+
+  <tr>
+    <td>Row 92</td>
+      <td>13642 - 5480</td>
+  </tr>
+
+  <tr>
+    <td>Row 93</td>
+      <td>11030 - map home drive</td>
+  </tr>
+
+  <tr>
+    <td>Row 94</td>
+      <td>10222 - email retention policy</td>
+  </tr>
+
+  <tr>
+    <td>Row 95</td>
+      <td>11282 - temp profile</td>
+  </tr>
+
+  <tr>
+    <td>Row 96</td>
+      <td>12172 - dual monitor</td>
+  </tr>
+
+  <tr>
+    <td>Row 97</td>
+      <td>10720 - writer</td>
+  </tr>
+
+  <tr>
+    <td>Row 98</td>
+      <td>10281 - iphone hotspot</td>
+  </tr>
+
+  <tr>
+    <td>Row 99</td>
+      <td>16018 - outlook preview</td>
+  </tr>
+
+  <tr>
+    <td>Row 100</td>
+      <td>10240 - dell warranty</td>
+  </tr>
+
+  <tr>
+    <td>Row 101</td>
+      <td>15945 - 7010</td>
+  </tr>
+
+  <tr>
+    <td>Row 102</td>
+      <td>14085 - battery</td>
+  </tr>
+
+  <tr>
+    <td>Row 103</td>
+      <td>10682 - rm-ip</td>
+  </tr>
+
+  <tr>
+    <td>Row 104</td>
+      <td>10613 - toner-under-warranty</td>
+  </tr>
+
+  <tr>
+    <td>Row 105</td>
+      <td>13692 - verify lexmark-toner under warranty</td>
+  </tr>
+
+  <tr>
+    <td>Row 106</td>
+      <td>14809 - used equipment photos</td>
+  </tr>
+
+  <tr>
+    <td>Row 107</td>
+      <td>12482 - fax</td>
+  </tr>
+
+  <tr>Row 108</td>
+      <td>13579 - genie webgpi</td>
+  </tr>
+
+  <tr>Row 109</td>
+    <td>14265 - cx522</td>
+</tr>
+<tr>Row 110</td>
+  <td>14259 - mx622</td>
+</tr>
+<tr>Row 111</td>
+  <td>14264 - ms321</td>
+</tr>
+<tr>Row 112</td>
+  <td>15998 - mx632</td>
+</tr>
+<tr>Row 113</td>
+  <td>15996 - cx532</td>
+</tr>
+<tr>Row 114</td>
+  <td>14272 - mx331</td>
+</tr>
+<tr>Row 115</td>
+  <td>14260 - mx321</td>
+</tr>
+<tr>Row 116</td>
+  <td>14261 - mx521</td>
+</tr>
+<tr>Row 117</td>
+  <td>14266 - cs521</td>
+</tr>
+<tr>Row 118</td>
+  <td>15997 - ms531</td>
+</tr>
+<tr>Row 119</td>
+  <td>15995 - cs531</td>
+</tr>
+<tr>Row 120</td>
+  <td>10832 - color-printer</td>
+</tr>
+<tr>Row 121</td>
+  <td>12337 - serdia 2010</td>
+</tr>
+<tr>Row 122</td>
+  <td>11805 - adobe pdf</td>
+</tr>
+
+<tr>Row 123</td>
+  <td>14671 - X13</td>
+</tr>
+
+<tr>Row 124</td>
+  <td>11771 - stolen pc</td>
+</tr>
+
+<tr>Row 125</td>
+  <td>15501 - ios mail away</td>
+</tr>
+
+<tr>Row 126</td>
+  <td>13839 - spam</td>
+</tr>
+
+<tr>Row 127</td>
+  <td>15968 - shared drive</td>
+</tr>
+
+<tr>Row 128</td>
+  <td>10964 - telematics</td>
+</tr>
+
+<tr>Row 129</td>
+  <td>14303 - citrix workspace</td>
+</tr>
+
+<tr>Row 130</td>
+  <td>14733- teamviewer</td>
+</tr>
+
+<tr>Row 131</td>
+  <td>15261 - ringdna ring dna</td>
+</tr>
+
+<tr>Row 132</td>
+  <td>14296 - dl-new</td>
+</tr>
+
+<tr>Row 133</td>
+  <td>10172 - COGNOS</td>
+</tr>
+
+<tr>Row 134</td>
+  <td>14274 - EXL users philippines</td>
+</tr> 
+
+<tr>Row 135</td>
+  <td>13402 - links forms</td>
+</tr> 
+
+<tr>Row 136</td>
+  <td>10481 - 2844</td>
+</tr> 
+
+<tr>Row 137</td>
+  <td>11846 - monitor warranty</td>
+</tr> 
+
+<tr>Row 138</td>
+  <td>12290 - third party vpn</td>
+</tr> 
+
+<tr>Row 139</td>
+  <td>15945 - 7010</td>
+</tr> 
+
+<tr>Row 140</td>
+  <td>12541 - junk</td>
+</tr> 
+
+<tr>Row 141</td>
+  <td>13167 - sonitrol security camera</td>
+</tr> 
+
+<tr>Row 142</td>
+  <td>12099 - takeuchi diagmaster</td>
+</tr> 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+<p>Selected Device: <span id="selectedDevice"></span></p>
+
+            
+            
+
+       
+        
+           
+<script>
+
+
+            const copyButton = document.getElementById('copyButton');
+            const copyButton2 = document.getElementById('copyButton2');
+            const copyButton3 = document.getElementById('copyButton3');
+            const copyButton4 = document.getElementById('copyButton4');
+            const copyButton5 = document.getElementById('copyButton5');
+            const copyButton11 = document.getElementById('copyButton11');
+            const copyButton12 = document.getElementById('copyButton12');
+            const copyButton13 = document.getElementById('copyButton13');
+            const copyButton14 = document.getElementById('copyButton14');
+            const copyButton15 = document.getElementById('copyButton15');
+            const copyButton16 = document.getElementById('copyButton16');
+            const copyTextarea = document.getElementById('jPage');
+            const copyTextarea2 = document.getElementById('tPage');
+            const copyTextarea3 = document.getElementById('sPage');
+            const copyTextarea4 = document.getElementById('hPage');
+            const copyTextarea5 = document.getElementById('xPage');
+            const copyTextarea11 = document.getElementById('email');
+            const copyTextarea12 = document.getElementById('j003');
+            const copyTextarea13 = document.getElementById('sum');
+            const copyTextarea14 = document.getElementById('t001');
+            const copyTextarea15 = document.getElementById('j005');
+            const copyTextarea16 = document.getElementById('j006');
+            const firstTextarea = document.getElementById('j001');
+            firstTextarea.focus(); 
+        
+            copyButton.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+
+            copyButton2.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea2.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea2.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea2.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+
+            copyButton3.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea3.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea3.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea3.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+
+            copyButton4.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea4.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea4.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea4.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+
+            copyButton5.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea5.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea5.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea5.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+
+            copyButton11.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea11.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea11.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea11.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+
+            copyButton12.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea12.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea12.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea12.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+            copyButton13.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea13.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea13.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea13.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+            copyButton14.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea14.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea14.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea14.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+            copyButton15.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea15.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea15.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea15.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+            copyButton16.addEventListener('click', () => {
+              // Select the textarea's content
+              copyTextarea16.select();
+        
+              // Use the Clipboard API to copy the selected content to clipboard
+              navigator.clipboard.writeText(copyTextarea16.value)
+                .then(() => {
+                  console.log('Text copied to clipboard:', copyTextarea16.value);
+                })
+                .catch(err => {
+                  console.error('Error copying text to clipboard:', err);
+                });
+            });
+      function jia2(){
+
+        const inputString = document.getElementById('sPage').value;
+        const delimiter = " - ";
+
+        const parts = inputString.split(delimiter);
+
+          if (parts.length > 1) {
+            const leftPart = parts[0];
+            console.log("Left part:", leftPart);
+            document.getElementById("kbase").innerHTML=leftPart;
+          } else {
+            console.log("Delimiter not found in the input string.");
+          }
+
+ 
+
+  
+  
+        window.scrollTo(0,0);
+      }
+            
+      function jia() {
+          var p1 = document.getElementById('j001').value;
+          var p2 = document.getElementById('j002').value;
+          var p3 = document.getElementById('j003').value;
+          var p4 = document.getElementById('j004').value;
+          var p5 = document.getElementById('j005').value;
+          var p6 = document.getElementById('j006').value;
+          var p7 = document.getElementById('j007').value;
+          var p8 = document.getElementById('j008').value;
+          var t1 = document.getElementById('t001').value;
+          var t2 = document.getElementById('t002').value;
+          var sum = document.getElementById('sum').value;
+          var min = document.getElementById('min').value; 
+          var kbase = document.getElementById('kbase').value;
+          var email = document.getElementById('email').value;
+          var selectedDevice = document.getElementById('selectedDevice').textContent;
+          var pAll = "Phone number: "+p3+"\r"+"Issue: "+p4+"\r\r"+selectedDevice+" Name: "+p5+"\r"+"IP Address: "+p6+"\r"+"Error Message: "+p7;
+          string = pAll;
+  
+          var tAll = 
+              p1+" "+p2+"\r"+
+              email+"\r"+
+              p3+"\r"+p8+"\r"+sum+"\r"+p4+"\r"+p5+"\r"+p6+"\r"+t1+"\r"+"ticket #: "+t2+"\r\r"+"..."+"\r\r"
+              ;
+
+          var currentdate = new Date();
+          var datetime = "Last Sync: " + currentdate.getDay() + "/" + currentdate.getMonth() 
+              + "/" + currentdate.getFullYear() + " @ " 
+              + currentdate.getHours() + ":" 
+              + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+
+          var hAll = t2 + " - " +sum+ "/"+p4 +" > used kbase# "+kbase+" ("+min+" min) >>> "+currentdate;
+  
+          var pAll2 = "";
+          var t11="";
+          var p55="";
+          var p66="";
+          var p77="";
+  
+
+          if(t1===""){
+              t11="";
+          }
+          else {
+          t11="SERVICE TAG: "+t1+"\r";
+          }
+
+          if(p5===""){
+            p55="";
+          }
+          else {
+            p55="COMPUTER NAME: "+p5+"\r";
+          }
+
+          if(p7===""){
+            p77="";
+          }
+          else {
+          p77="ERROR+: "+p7+"\r";
+          }
+          if(p6===""){
+            p66="";
+          }
+          else {
+          p66="IP ADDRESS: "+p6+"\r";
+          }
+
+          var currentdate = new Date();
+              var datetime = "Last Sync: " + currentdate.getDay() + "/" + currentdate.getMonth() 
+              + "/" + currentdate.getFullYear() + " @ " 
+              + currentdate.getHours() + ":" 
+              + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+
+          pAll2=
+          "DATE: "+currentdate+"\r"+
+          "NAME: "+p1+" "+p2+"\r"+
+          "PHONE: "+p3+"\r"+
+          "EMAIL: "+email+"\r"+
+          "BRANCH: "+p8+"\r"+
+          "SUMMARY: "+sum+"\r"+
+            "ISSUE: "+p4+"\r"+
+          t11+
+          p55+
+          p66+
+          p77+
+          "TICKET#: "+t2+
+          "\r\r"+"..."+"\r\r"
+          ;
+
+
+        //alert(string);
+        document.getElementById("jPage").innerHTML=pAll;
+        document.getElementById("tPage").innerHTML=pAll2;
+        document.getElementById("hPage").innerHTML=hAll;
+  
+        window.scrollTo(0,0);
+      }
+
+      function jia001(){
+        var xAll = "877-862-7849";
+        document.getElementById("xPage").innerHTML=xAll;
+      }
+
+      function jia002(){
+        var xAll = "866-876-3355";
+        document.getElementById("xPage").innerHTML=xAll;
+      }
+
+      function jia003(){
+        var xAll = "855-669-3600";
+        document.getElementById("xPage").innerHTML=xAll;
+      }
+
+      function jia004(){
+        var xAll = "800-453-9787 [code 5240.7258]";
+        document.getElementById("xPage").innerHTML=xAll;
+      }
+
+      function jia005(){
+        var xAll = "800-275-2273";
+        document.getElementById("xPage").innerHTML=xAll;
+      }
+
+      function jia006(){
+        var xAll = "tried to warm transfer to FAST but they were busy"
+        +"\r"+"warm transfer to [   ] at FAST"
+        +"\r"+"escalate to FAST";
+        document.getElementById("xPage").innerHTML=xAll;
+      }
+
+  function jia007(){
+    var xAll = "tried to warm transfer to RM but they were busy"
+    +"\r"+"warm transfer to [   ] at RM"
+    +"\r"+"escalate to RM";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia008(){
+    var xAll = "manager's email pw reset request received"+"\r"+"reset pw and gave user pw over the phone";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia009(){
+    var xAll = "verified credential to be good"+"\r"+"remote into pc and sync account";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia010(){
+    var xAll = "emailed shipping instructions to AM/repair"+"\r"+"escalate ticket to AM/repair";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia011(){
+    var xAll = "verified credentials to be locked"+"\r"+"gather info from splunk and ise"+"\r"+"helped user forget ur-employee wifi on both personal and work phones"+"\r"+"unlocked user's account";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+  function jia012(){
+    var xAll = "verified credential to be locked"+"\r"+"gather info from splunk"+"\r"+"unlocked user's account";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+  function jia013(){
+    var xAll = "verified credential to be good"+"\r"+"remote into wyse and sync account"+"\r"+"exit citrix workspace"+"\r"+"restart ctx/vda";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+  function jia014(){
+    var xAll = "advised user to email maintenancetechnical@ur.com";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia015(){
+    var xAll = "vpn.ur.com/SSL-Remote";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia016(){
+    var xAll = "link to problem board advised user of problem";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia017(){
+    var xAll = "issue resolved itself while on call";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia018(){
+    var xAll = "give me the best ";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia019(){
+    var xAll = "&nbsp;"+"recipe with 9 ingredients or less and print the title on top without the words title or recipe in the title";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia020(){
+    var xAll = "helped user factory data reset, connect to wifi, and reenrolled FAST phone";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia021(){
+    var xAll = "power cycled pc and restart after 12 seconds";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia022(){
+    var xAll = "open pointman ticket for out of warranty printer service";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia023(){
+    var xAll = "warm transferred to [] at FAST";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia024(){
+    var xAll = "helped user factory data reset, connect to wifi and reenroll phone";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia025(){
+    var xAll = "remote into pc"+"\r"+"cleared out chrome cache for all time";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia026(){
+    var xAll = "shut down pc and restart after 12 seconds";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia027(){
+    var xAll = "user is member of SG APP MDM Exchange Online";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia028(){
+    var xAll = "transfer to wireless help desk to activate FAST phone";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia029(){
+    var xAll = "RM ID: "
+    +"\r"+"RM Location: "
+    +"\r"+"from main RM menu steps to issue >>>";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia030(){
+    var xAll = "webmail.ur.com/owa";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia031(){
+    var xAll = "scan for support assist updates and found updates"+"\r"+"user will update and restart pc";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia032(){
+    var xAll = "scan for system updates and found updates"+"\r"+"user will update and restart pc";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia033(){
+    var xAll = "issue resolved itself while on call";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia034(){
+    var xAll = " [this ticket is from EMAILS] ";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia035(){
+    var xAll = "verified credential to be good"+"\r"+
+    "remote into pc and sync account"+"\r"+
+    "install labeltac driver and app from software center";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia036(){
+    var xAll = "power cycled pc and restart after 12 seconds";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia037(){
+    var xAll = "helped user change pw from password.ur.com";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia038(){
+    var xAll = "followed kbase helped user configure odbc connection for refresh files";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia039(){
+    var xAll = "cgi-bin/history";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia040(){
+    var xAll = "\\ctxrp1\profiles\\Desktop";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia041(){
+    var xAll = "https://officecloud.winweb.com/pointman";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia042(){
+    var xAll = "uruser@point-management.com";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia043(){
+    var xAll = "Pointman";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia044(){
+    var xAll = "advised and linked to problem on problem board";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia045(){
+    var xAll = "https://cloud.sophos.com/manage/login";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia046(){
+    var xAll = "http://rm.ur.com/printers.html";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+  function jia047(){
+    var xAll = "helped user change his pw from password.ur.com";
+    document.getElementById("xPage").innerHTML=xAll;
+  }
+
+ 
+
+  
+
+
+
+
+
+
+  
+
+      function searchText() {
+          var searchValue = document.getElementById("searchInput").value.toLowerCase();
+          var dataTable = document.getElementById("dataTable");
+          var rows = dataTable.getElementsByTagName("tr");
+
+          for (var i = 0; i < rows.length; i++) {
+            var cells = rows[i].getElementsByTagName("td");
+            var found = false;
+
+          for (var j = 0; j < cells.length; j++) {
+            var cellText = cells[j].textContent.toLowerCase();
+            if (cellText.includes(searchValue)) {
+                found = true;
+                document.getElementById("sPage").innerHTML=cells[j].textContent.toLowerCase();
+                break;
+            }
+          }
+
+          if (found) {
+            rows[i].style.display = "";
+          } else {
+            rows[i].style.display = "none";
+          }
+        }
+      }
+
+
+
+
+
+
+
+// Usage
+
+
+
+
+
+  
+
+
+// Add an event listener for the keydown event on the window
+
+
+      function displayDate() {
+        const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const currentDate = new Date();
+        const dayOfWeek = daysOfWeek[currentDate.getDay()];
+        const date = currentDate.toDateString();
+
+        document.getElementById('weekday').textContent = dayOfWeek;
+        document.getElementById('date').textContent = date;
+      }
+
+      function loadPage(url) {
+      window.location.href = url;
+      }
+
+
+      function handleF1KeyPress(event) {
+        if (event.key === 'F1') {
+          // Your code to be executed when F1 key is pressed goes here
+           const textToCopy = 'give me the best ';
+          copyTextToClipboard(textToCopy);
+
+
+
+        }
+      }
+
+      function handleF2KeyPress(event) {
+        if (event.key === 'F2') {
+          // Your code to be executed when F1 key is pressed goes here
+          const textToCopy = 'gluten free recipe with 9 ingredients or less with the words gluten-free at the start of each recipe title'+'\r'+
+          'do not print the word title in the title'+'\r'+
+          'also do not print the word recipe in the title'+'\r'+
+          'print the words joc soups and stews after the word gluten-free but before the actual recipe title - make sure you include ingredients and steps to make the recipe in simple easy to understand english - make the title one line not 2';
+          copyTextToClipboard(textToCopy);
+
+
+
+        }
+      }
+
+// Add an event listener for the keydown event on the window
+
+
+      function copyTextToClipboard(text) {
+        // Check if the Clipboard API is available
+        if (navigator.clipboard) {
+         navigator.clipboard.writeText(text)
+          .then(() => {
+           console.log('Text copied to clipboard: ' + text);
+          })
+          .catch((err) => {
+          console.error('Unable to copy text to clipboard: ', err);
+        });
+        } else {
+          // Fallback for browsers that do not support the Clipboard API
+          const textArea = document.createElement('textarea');
+         textArea.value = text;
+          textArea.style.position = 'fixed';
+          document.body.appendChild(textArea);
+          textArea.select();
+        try {
+          document.execCommand('copy');
+          console.log('Text copied to clipboard: ' + text);
+          } catch (err) {
+            console.error('Unable to copy text to clipboard: ', err);
+          } finally {
+            document.body.removeChild(textArea);
+          }
+        }
+}
+
+// Usage
+
+
+
+// Usage
+
+
+        window.addEventListener('keydown', handleF1KeyPress);
+        window.addEventListener('keydown', handleF2KeyPress);
+
+        const pcRadio = document.getElementById("pcRadio");
+        const printerRadio = document.getElementById("printerRadio");
+        const selectedDevice = document.getElementById("selectedDevice");
+
+        
+        pcRadio.addEventListener("change", function() {
+            if (pcRadio.checked) {
+                selectedDevice.textContent = "Computer";
+            }
+        });
+
+        printerRadio.addEventListener("change", function() {
+            if (printerRadio.checked) {
+                selectedDevice.textContent = "Printer";
+            }
+        });
+
+
+
+           
+        
+        
+        
+        
+        
+</script>
+<script>
+  function updateDateTime() {
+      var currentDate = new Date();
+      
+      // Format date as mm/dd/yyyy
+      var formattedDate = (currentDate.getMonth() + 1) + '/' + currentDate.getDate() + '/' + currentDate.getFullYear();
+      
+      // Format time as hh:mm am/pm
+      var hours = currentDate.getHours();
+      var minutes = currentDate.getMinutes();
+      var ampm = hours >= 12 ? 'pm' : 'am';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // the hour '0' should be '12'
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      
+      var formattedTime = hours + ':' + minutes + ' ' + ampm.toUpperCase();
+
+      // Display the formatted date and time
+      document.getElementById('dateTimeDisplay').innerHTML = formattedDate + ' (' + formattedTime+') ';
+  }
+
+  // Call the function immediately when the page loads
+  updateDateTime();
+
+  // Update the date and time every second (1000 milliseconds)
+  setInterval(updateDateTime, 1000);
+</script>
+
+</body>
+</html>
